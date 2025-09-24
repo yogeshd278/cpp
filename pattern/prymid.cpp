@@ -13,11 +13,11 @@ int main() {
         for(int j=0; j<n-i-1; j++) {
             cout << " ";
         }
-        for(int k=0; k<i+1; k++){
-            cout << "*";
+        for(int j=0; j<i+1; j++){
+            cout << j;
         }
-        for(int p=0; p<i; p++) {
-            cout << "*";
+        for(int j=i; j>0; j--) {
+            cout << j;
         }
         cout << endl;
     }
